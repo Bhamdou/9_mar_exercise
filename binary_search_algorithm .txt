@@ -1,0 +1,9 @@
+This code implements the binary search algorithm, which is an efficient way to search for a specific value in a sorted
+list of numbers. The binary search algorithm works by repeatedly dividing the list in half and eliminating half of the
+remaining elements each time, until the target value is found or it can be determined that the value is not in the list.
+The code uses a while loop to iterate until the search range has been reduced to zero, and the low and high variables
+keep track of the current search range.
+The mid variable is used to calculate the middle index of the current search range,
+and the code compares the value at the mid index to the target value to determine whether to search the lower or
+upper half of the list. If the target value is found, the function returns the index at which it was found.
+If the target value is not found, the function returns -1.
